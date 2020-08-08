@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <center>
+      
+      <u><h2>Unit Test</h2></u>
+    
+    </center>
+    <p>
+      Rules
+      <table>
+        <tr>
+          <td>Attend All 2 mark questions</td>
+        </tr>
+        <tr>
+          <td>select one (or) question</td>
+        </tr>
+        <tr>
+          <td>Limit to word limit</td>
+        </tr>
+      </table>
+    </p>  
+
+    <div class="container">
+      <form id="unitTest">
+        <div class="row">
+          <div class="col-25">
+            <label>Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label >Roll Number</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              name = "rollNumber"
+              id="rollNumber"
+              placeholder="Your Roll Number"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <input
+            type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject Name"
+            ></input>
+          </div>
+        </div>
+
+        <center><h2>Part A (2x5 =10)</h2></center>
+        <div class="row">
+          <div class="col-25">
+            <label for="question">Question 1.</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="question1"
+              name="question1"
+              placeholder="Your Answer"
+              style="height: 100px;"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="question">Question 2.</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="question2"
+              name="question2"
+              placeholder="Your Answer"
+              style="height: 100px;"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="question">Question 3.</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="question3"
+              name="question3"
+              placeholder="Your Answer"
+              style="height: 100px;"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="question">Question 4.</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="question4"
+              name="question4"
+              placeholder="Your Answer"
+              style="height: 100px;"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="question">Question 5.</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="question5"
+              name="question5"
+              placeholder="Your Answer"
+              style="height: 100px;"
+            ></textarea>
+          </div>
+        </div>
+
+        <center><h2>Part B (1x7 = 7)</h2></center>
+        <div class="row">
+          <div class="col-25">
+            <label for="question">Question 6 (i).</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="question6a"
+              name="question6a"
+              placeholder="Your Answer"
+              style="height: 100px;"
+            ></textarea>
+          </div>
+        </div>
+        <center><h4>or<h4></center>
+          <div class="row">
+            <div class="col-25">
+              <label for="question">Question 6(ii).</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="question6b"
+              name="question6b"
+                placeholder="Your Answer"
+                style="height: 100px;"
+              ></textarea>
+            </div>
+          </div>
+          <center><h2>Part C (1 x 8 = 9)</h2></center>
+        <div class="row">
+          <div class="col-25">
+            <label for="question">Question 7(i).</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="question7a"
+              name="question7a"
+              placeholder="Your Answer"
+              style="height: 100px;"
+            ></textarea>
+          </div>
+        </div>
+        <center><h4>or<h4></center>
+          <div class="row">
+            <div class="col-25">
+              <label for="question">Question 7(ii).</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="question7b"
+              name="question7b"
+                placeholder="Your Answer"
+                style="height: 100px;"
+              ></textarea>
+            </div>
+          </div>
+          <br><br>
+          <center>
+        <div class="row">
+          <button type="submit">Submit Test</button>
+        </div>
+      </center>
+      </form>
+    </div>
+
+    <!-- <form id="unitTest">
+      <label for="">name</label><input type="text" id="name" />
+      <label for="">rollNumber</label><input type="text" id="rollNumber" />
+      <label for="">subject</label><input type="text" id="subject" />
+      <label for="">question1</label><input type="text" id="question1" />
+      <label for="">question2</label><input type="text" id="question2" />
+      <label for="">question3</label><input type="text" id="question3" />
+      <label for="">question4</label><input type="text" id="question4" />
+      <label for="">question5</label><input type="text" id="question5" />
+      <label for="">question6a</label><input type="text" id="question6a" />
+      <label for="">question6b</label><input type="text" id="question6b" />
+      <label for="">question7a</label><input type="text" id="question7a" />
+      <label for="">question7b</label><input type="text" id="question7b" />
+      <button type="submit">Submit</button>
+    </form> -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
